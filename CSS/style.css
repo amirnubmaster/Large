@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+
+.add{
+    width: 48% !important;
+}
+
+@media (max-width:992px){
+    .add{
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width:767px){
+    .top ul{
+       flex-wrap: wrap; 
+    }
+
+    .top ul li a{
+        margin: auto 10px;
+    }
+}
